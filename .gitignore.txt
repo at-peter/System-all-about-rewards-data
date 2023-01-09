@@ -1,2 +1,2 @@
-qmix.zip
-iql.zip
+./qmix/
+./iql/
