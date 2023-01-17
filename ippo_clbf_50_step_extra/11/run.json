@@ -1,0 +1,115 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/home/atlas/sambashare/source/atpeterepymarl/src",
+    "dependencies": [
+      "munch==2.5.0",
+      "numpy==1.23.4",
+      "pymongo==4.1.1",
+      "PyYAML==6.0",
+      "sacred==0.8.2",
+      "torch==1.11.0"
+    ],
+    "mainfile": "main.py",
+    "name": "main",
+    "repositories": [
+      {
+        "commit": "733d38453a4627797eb7abccea47d4faa4e186c4",
+        "dirty": true,
+        "url": "https://github.com/at-peter/epymarl.git"
+      },
+      {
+        "commit": "733d38453a4627797eb7abccea47d4faa4e186c4",
+        "dirty": true,
+        "url": "https://github.com/at-peter/epymarl.git"
+      },
+      {
+        "commit": "733d38453a4627797eb7abccea47d4faa4e186c4",
+        "dirty": true,
+        "url": "https://github.com/at-peter/epymarl.git"
+      }
+    ],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_2bb86e920867f3921e84646724ff0595.py"
+      ],
+      [
+        "run.py",
+        "_sources/run_77f33d14d20fa40604c36e8213606401.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_4a8ec8e89e50c60ddb67fb5bbe3d4763.py"
+      ]
+    ]
+  },
+  "heartbeat": "2023-01-17T05:48:42.566716",
+  "host": {
+    "ENV": {},
+    "cpu": "AMD Ryzen Threadripper 2990WX 32-Core Processor",
+    "gpus": {
+      "driver_version": "470.103.01",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 2080 Ti",
+          "persistence_mode": false,
+          "total_memory": 11019
+        },
+        {
+          "model": "NVIDIA GeForce RTX 2080 Ti",
+          "persistence_mode": false,
+          "total_memory": 11019
+        },
+        {
+          "model": "NVIDIA GeForce RTX 2080 Ti",
+          "persistence_mode": false,
+          "total_memory": 11016
+        }
+      ]
+    },
+    "hostname": "pop-os",
+    "os": [
+      "Linux",
+      "Linux-5.17.15-76051715-generic-x86_64-with-glibc2.34"
+    ],
+    "python_version": "3.9.7"
+  },
+  "meta": {
+    "command": "my_main",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "env_args.time_limit=50",
+        "env_args.key=Foraging-8x8-2p-2f-coop-v2"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2023-01-17T04:55:58.926770",
+  "status": "COMPLETED",
+  "stop_time": "2023-01-17T05:48:42.566102"
+}
