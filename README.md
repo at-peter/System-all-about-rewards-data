@@ -1,1 +1,1 @@
-# Results for paper
+# Results for publication: It's All About Reward
